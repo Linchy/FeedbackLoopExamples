@@ -6,6 +6,7 @@
 **/bin
 **/obj
 /packages
+/UnityGame3dExample/Library/assetDatabase3
 /UnityGame3dExample/Library/metadata
 /UnityGame3dExample/Library/*Cache*
 /UnityGame3dExample/Library/*.log

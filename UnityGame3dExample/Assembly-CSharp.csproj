@@ -63,7 +63,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\Cameras\Scripts\AutoCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\HandHeldCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\LookatTarget.cs" />
+    <Compile Include="Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <None Include="Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Cameras\CameraGuidelines.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/git/FeedbackLoopExamples/UnityGame3dExample/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
