@@ -2,7 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+**/.vs
 **/bin
 **/obj
 /packages
+/UnityGame3dExample/Library/metadata
+/UnityGame3dExample/Library/*Cache*
+/UnityGame3dExample/Library/*.log
+/UnityGame3dExample/Logs
+/UnityGame3dExample/Temp
